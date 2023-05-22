@@ -98,7 +98,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": {
+              "deploy": "ng deploy --base-href=https://sanjagocevska.github.io/portfolio/"
+            }
           }
         },
         "deploy": {
